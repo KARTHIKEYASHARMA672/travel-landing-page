@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourz - Travel Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <div class="logo">
+                        <span class="logo-text">Tourz</span>
+                    </div>
+                    <div class="header__search">
+                        <input type="text" placeholder="Search destinations or activities" class="search-input">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <a href="#" class="signup-link">Sign up</a>
+                    <a href="#" class="login-btn">Log in</a>
+                    <button class="cart-btn">🛒</button>
+                    <div class="dropdown">
+                        <button class="dropdown-btn">Destinations ▼</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown-btn">Activities ▼</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown-btn">USD ▼</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__background">
+            <div class="hero__bg-left"></div>
+            <div class="hero__bg-right"></div>
+            <div class="hero__bg-main"></div>
+        </div>
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Your world of joy</h1>
+                <p class="hero__subtitle">From local escapes to far-flung adventures, find what makes you happy anytime, anywhere</p>
+                <div class="search-form">
+                    <div class="search-form__item">
+                        <div class="search-form__icon">📍</div>
+                        <div class="search-form__content">
+                            <label>Where</label>
+                            <input type="text" placeholder="Search destinations">
+                        </div>
+                    </div>
+                    <div class="search-form__item">
+                        <div class="search-form__icon">📅</div>
+                        <div class="search-form__content">
+                            <label>When</label>
+                            <input type="text" value="February 05 ~ March 14">
+                        </div>
+                    </div>
+                    <div class="search-form__item">
+                        <div class="search-form__icon">🎯</div>
+                        <div class="search-form__content">
+                            <label>Tour Type</label>
+                            <input type="text" value="All tour">
+                        </div>
+                    </div>
+                    <button class="search-form__btn">
+                        🔍 Search
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Tourz Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why choose Tourz</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🎫</div>
+                    <h3>Ultimate flexibility</h3>
+                    <p>You're in control, with free cancellation and payment options to satisfy any plan or budget.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎈</div>
+                    <h3>Memorable experiences</h3>
+                    <p>Browse and book tours and activities so incredible, you'll want to tell your friends.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💎</div>
+                    <h3>Quality at our core</h3>
+                    <p>High-quality standards. Millions of reviews. A tourz company.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Award-winning support</h3>
+                    <p>New price? New plan? No problem. We're here to help, 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Destinations -->
+    <section class="trending-destinations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trending destinations</h2>
+                <a href="#" class="see-all-link">See all →</a>
+            </div>
+            <div class="destinations-carousel">
+                <div class="destination-item">
+                    <div class="destination-image">
+                        <img src="images/paris-destination-56586a.png" alt="Paris">
+                    </div>
+                    <h3>Paris</h3>
+                    <p>100+ Tours</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-image">
+                        <img src="images/singapore-destination-56586a.png" alt="Singapore">
+                    </div>
+                    <h3>Singapore</h3>
+                    <p>300+ Tours</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-image">
+                        <img src="images/roma-destination-56586a.png" alt="Roma">
+                    </div>
+                    <h3>Roma</h3>
+                    <p>400+ Tours</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-image">
+                        <img src="images/bangkok-destination-56586a.png" alt="Bangkok">
+                    </div>
+                    <h3>Bangkok</h3>
+                    <p>100+ Tours</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-image">
+                        <img src="images/bali-destination-56586a.png" alt="Bali">
+                    </div>
+                    <h3>Bali</h3>
+                    <p>600+ Tours</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-image">
+                        <img src="images/phuket-destination-56586a.png" alt="Phuket">
+                    </div>
+                    <h3>Phuket</h3>
+                    <p>200+ Tours</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-image">
+                        <img src="images/tokyo-destination-56586a.png" alt="Tokyo">
+                    </div>
+                    <h3>Tokyo</h3>
+                    <p>700+ Tours</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-image">
+                        <img src="images/cappadocia-destination-56586a.png" alt="Cappadocia">
+                    </div>
+                    <h3>Cappadocia</h3>
+                    <p>900+ Tours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Tours -->
+    <section class="popular-tours">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Find Popular Tours</h2>
+                <a href="#" class="see-all-link">See all →</a>
+            </div>
+            <div class="tours-grid">
+                <div class="tour-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-1-101201.png" alt="Centipede Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 Paris, France</div>
+                        <h3>Centipede Tour - Guided Arizona Desert Tour by ATV</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $189.25</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-2-101201.png" alt="Molokini Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 New York, USA</div>
+                        <h3>Molokini and Turtle Town Snorkeling Adventure Aboard</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $225</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-3-101201.png" alt="Westminster Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 London, UK</div>
+                        <h3>Westminster Walking Tour & Westminster Abbey Entry</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $943</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-4-cbc7f6.png" alt="Circle Island Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 New York, USA</div>
+                        <h3>All Inclusive Ultimate Circle Island Day Tour with Lunch</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $771</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-5-cbc7f6.png" alt="Space Center Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 Paris, France</div>
+                        <h3>Space Center Houston Admission Ticket</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $189.25</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-6-cbc7f6.png" alt="Kayak Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 New York, USA</div>
+                        <h3>Clear Kayak Tour of Shell Key Preserve and Tampa Bay Area</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $225</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-7-40d718.png" alt="Salem Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 London, UK</div>
+                        <h3>History and Hauntings of Salem Guided Walking Tour</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $943</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-1-101201.png" alt="Mauna Kea Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 New York, USA</div>
+                        <h3>Mauna Kea Summit Sunset and Stars Free Astro Photos Hilo Kona Waikoloa Pick Up</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $771</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotional Banner -->
+    <section class="promo-banner">
+        <div class="promo-banner__content">
+            <h2>Grab up to 35% off on your favorite Destination</h2>
+            <p>Limited time offer, don't miss the opportunity</p>
+            <button class="promo-btn">Book Now →</button>
+        </div>
+    </section>
+
+    <!-- Popular Things to Do -->
+    <section class="popular-activities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular things to do</h2>
+                <a href="#" class="see-all-link">See all →</a>
+            </div>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/activity-cruises-300e5d.png" alt="Cruises">
+                    </div>
+                    <h3>Cruises</h3>
+                </div>
+                <div class="activity-card activity-card--large">
+                    <div class="activity-image">
+                        <img src="images/activity-beach-3adae8.png" alt="Beach Tours">
+                    </div>
+                    <h3>Beach Tours</h3>
+                </div>
+                <div class="activity-card activity-card--wide">
+                    <div class="activity-image">
+                        <img src="images/activity-city-300e5d.png" alt="City Tours">
+                    </div>
+                    <h3>City Tours</h3>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/activity-museum-300e5d.png" alt="Museum Tour">
+                    </div>
+                    <h3>Museum Tour</h3>
+                </div>
+                <div class="activity-card activity-card--small">
+                    <div class="activity-image">
+                        <img src="images/activity-food-300e5d.png" alt="Food">
+                    </div>
+                    <h3>Food</h3>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/activity-hiking-300e5d.png" alt="Hiking">
+                    </div>
+                    <h3>Hiking</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Trending -->
+    <section class="top-trending">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Top Trending</h2>
+                <a href="#" class="see-all-link">See all →</a>
+            </div>
+            <div class="trending-carousel">
+                <div class="trending-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-1-101201.png" alt="Centipede Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 Paris, France</div>
+                        <h3>Centipede Tour - Guided Arizona Desert Tour by ATV</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $189.25</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="trending-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-2-101201.png" alt="Molokini Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 New York, USA</div>
+                        <h3>Molokini and Turtle Town Snorkeling Adventure Aboard</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $225</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="trending-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-3-101201.png" alt="Westminster Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 London, UK</div>
+                        <h3>Westminster Walking Tour & Westminster Abbey Entry</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $943</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+                <div class="trending-card">
+                    <div class="tour-card__image">
+                        <img src="images/tour-card-4-cbc7f6.png" alt="Circle Island Tour">
+                    </div>
+                    <div class="tour-card__content">
+                        <div class="tour-location">📍 New York, USA</div>
+                        <h3>All Inclusive Ultimate Circle Island Day Tour with Lunch</h3>
+                        <div class="tour-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8 (243)</span>
+                        </div>
+                        <div class="tour-details">
+                            <div class="tour-duration">⏱️ 4 days</div>
+                            <div class="tour-price">From $771</div>
+                        </div>
+                    </div>
+                    <button class="tour-card__btn">❤️</button>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn carousel-btn--prev">‹</button>
+                <button class="carousel-btn carousel-btn--next">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="customer-reviews">
+        <div class="reviews-background"></div>
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="review-card">
+                <div class="review-content">
+                    <h3>Excellent Service!</h3>
+                    <p>I had an amazing experience with this company. The service was top-notch, and the staff was incredibly friendly. I highly recommend them!</p>
+                    <div class="reviewer-info">
+                        <img src="images/customer-avatar-56586a.png" alt="John Smith" class="reviewer-avatar">
+                        <div class="reviewer-details">
+                            <h4>John Smith</h4>
+                            <p>Traveler</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-icon">💬</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-background"></div>
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Get 5% off your 1st app booking</h2>
+                    <p>Booking's better on the app. Use promo code "TourBooking" to save!</p>
+                    <p class="newsletter-subtitle">Get a magic link sent to your email</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email" class="newsletter-input">
+                        <button class="newsletter-btn">Send</button>
+                    </div>
+                </div>
+                <div class="newsletter-phone">
+                    <img src="images/newsletter-phone-56586a.png" alt="Mobile App">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Articles -->
+    <section class="travel-articles">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Travel Articles</h2>
+                <a href="#" class="see-all-link">See all →</a>
+            </div>
+            <div class="articles-grid">
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="images/article-1-7c01fd.png" alt="Kenya vs Tanzania Safari">
+                        <div class="article-badge">Trips</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">April 06 2023</span>
+                            <span class="article-separator">|</span>
+                            <span class="article-author">By Ali Tufan</span>
+                        </div>
+                        <h3>Kenya vs Tanzania Safari: The Better African Safari Experience</h3>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="images/article-2-7c01fd.png" alt="Serengeti Adventure">
+                        <div class="article-badge">Trips</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">April 07 2023</span>
+                            <span class="article-separator">|</span>
+                            <span class="article-author">By Emily Johnson</span>
+                        </div>
+                        <h3>Exploring the Serengeti: A Wildlife Adventure</h3>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="images/article-3-7c01fd.png" alt="Safari Journey">
+                        <div class="article-badge">Trips</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">April 08 2023</span>
+                            <span class="article-separator">|</span>
+                            <span class="article-author">By Maxwell Rhodes</span>
+                        </div>
+                        <h3>Into the Wild: An Unforgettable Safari Journey</h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__contact">
+                    <div class="contact-info">
+                        <span class="contact-icon">📞</span>
+                        <span>Speak to our expert at 1-800-453-6744</span>
+                    </div>
+                    <div class="social-links">
+                        <span>Follow Us</span>
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📺</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__main">
+                <div class="footer__section">
+                    <h4>Contact</h4>
+                    <p>328 Queensberry Street, North Melbourne VIC3051, Australia.</p>
+                    <p>hi@viatours.com</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Tourz Reviews</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Travel Guides</a></li>
+                        <li><a href="#">Data Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Get in Touch</a></li>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Live chat</a></li>
+                        <li><a href="#">How it works</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to the free newsletter and stay up to date</p>
+                    <div class="footer-newsletter">
+                        <input type="email" placeholder="Your email address" class="footer-newsletter-input">
+                        <button class="footer-newsletter-btn">Send</button>
+                    </div>
+                    <h4>Mobile Apps</h4>
+                    <div class="app-links">
+                        <a href="#" class="app-link">📱 iOS App</a>
+                        <a href="#" class="app-link">🤖 Android App</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© Copyright Viatours 2024</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
